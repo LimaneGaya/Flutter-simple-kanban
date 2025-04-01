@@ -1,0 +1,27 @@
+name: project_organizer
+description: "A new Flutter project."
+publish_to: 'none'
+version: 0.1.0
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^6.0.5 # Use latest provider
+  intl: ^0.20.2 # Use latest intl
+  drag_and_drop_lists: ^0.4.2 # Or latest
+  hive: ^2.2.3
+  hive_flutter: ^1.1.0
+  uuid: ^4.2.1 # For generating unique String IDs
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
